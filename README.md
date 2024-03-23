@@ -46,7 +46,7 @@ Returns: User orders.<br>
 <h1>Technologies Used</h1>
 <ul>
   <li>JavaScript</li>
-<li>Node.js</li><
+<li>Node.js</li>
 <li>Express.js</li>
 <li>Postman</li>
 <li>Swagger</li>
@@ -71,7 +71,7 @@ Returns: User orders.<br>
   ![Screenshot (60)](https://github.com/jitendra3618/E-COM-API/assets/137607500/25609fa8-9859-4fbd-ba56-81fff9cbe65a)
 
   
-  <h1>LIVE LINK:-</h1>
+  <h1>LIVE LINK:-</h1>https://jitendra3618.github.io/E-COM-API/
 
 <h1>Documentation</h1>
 For detailed API documentation, refer to <a href="https://swagger.io/">Swagger Documentation</a>

@@ -1,0 +1,102 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "description": "API for E-Commerce application created by JITENDRA KUMAR",
+        "title": "E-Commerce API"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:3200"
+        }
+    ],
+    "components": {
+        "securitySchemes": {
+            "JWT": {
+                "in": "header",
+                "name": "Authorization",
+                "type": "apiKey"
+            }
+        }
+    },
+    "paths": {
+       "/api/users/signin": {
+                "post": {
+                    "tags": [
+                        "Users"
+                    ],
+                    "summary": "Login",
+                    "description": "Enter your credentials to get a Login Token",
+                    "requestBody": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "email": {
+                                            "type": "string"
+                                        },
+                                        "password": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "responses": {
+                        "200": {
+                            "description": "OK Your Credentials are correct"
+                        },
+                        "400": {
+                            "description": "You have entered the Incorrect Credentials"
+                        }
+                    }
+                }
+            },
+        "/api/products": {
+            "get": {
+                "tags": [
+                    "Products"
+                ],
+                "summary": "Get Products",
+                "description": "Login to see all the products",
+                "security": [
+                    {
+                        "JWT": {}
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    }
+                }
+            }
+        },
+        "/api/cartItems": {
+            "get": {
+                "tags": [
+                    "CartItems"
+                ],
+                "summary": "Items in cart",
+                "description": "User can see what items present in cart",
+                "security": [
+                    {
+                        "JWT": {}
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    }
+                }
+            }
+        }
+    }
+}

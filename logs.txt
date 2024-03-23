@@ -1,0 +1,62 @@
+{"level":"info","message":"/api/cartItems - undefined","service":"request-logging"}
+{"level":"info","message":"/ - {}","service":"request-logging"}
+{"level":"info","message":"/api/cartItems - undefined","service":"request-logging"}
+{"level":"info","message":"/ - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - undefined","service":"request-logging"}
+{"level":"info","message":"/ - {}","service":"request-logging"}
+{"level":"info","message":"/ - undefined","service":"request-logging"}
+{"level":"info","message":"/products - undefined","service":"request-logging"}
+{"level":"info","message":"/api/products - undefined","service":"request-logging"}
+{"level":"info","message":"/ - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - undefined","service":"request-logging"}
+{"level":"info","message":"/ - {}","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:49:05 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:49:05 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: {}","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:50:04 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:50:04 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: {}","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:50:39 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:50:39 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: {}","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:51:09 GMT+0530 (India Standard Time)\n req URL: /api/cartItems\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:51:09 GMT+0530 (India Standard Time)\n req URL: /api/cartItems\n reqBody: {}","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:52:03 GMT+0530 (India Standard Time)\n req URL: /api/users/signin\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:52:03 GMT+0530 (India Standard Time)\n req URL: /api/users/signin\n reqBody: {\"email\":\"jitendrakr@gmail.com\",\"password\":\"Password@123\"}","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:52:38 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:52:38 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: {}","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:52:56 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:52:56 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: {}","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:53:05 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:53:05 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: {}","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:53:06 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 15:53:06 GMT+0530 (India Standard Time)\n req URL: /api/products\n reqBody: {}","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 23:46:22 GMT+0530 (India Standard Time)\n req URL: /api-docs/\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 23:46:22 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui-bundle.js\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 23:46:22 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui.css\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 23:46:22 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui-standalone-preset.js\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 23:46:22 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui-init.js\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 23:46:23 GMT+0530 (India Standard Time)\n req URL: /api-docs/favicon-32x32.png\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 23:56:30 GMT+0530 (India Standard Time)\n req URL: /api-docs/\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 23:56:31 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui.css\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 23:56:31 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui-bundle.js\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 23:56:31 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui-standalone-preset.js\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 23:56:31 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui-init.js\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sat Mar 23 2024 23:56:31 GMT+0530 (India Standard Time)\n req URL: /api-docs/favicon-32x32.png\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:03:55 GMT+0530 (India Standard Time)\n req URL: /api-docs/\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:03:55 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui.css\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:03:55 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui-bundle.js\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:03:55 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui-standalone-preset.js\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:03:55 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui-init.js\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:03:56 GMT+0530 (India Standard Time)\n req URL: /api-docs/favicon-32x32.png\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:05:04 GMT+0530 (India Standard Time)\n req URL: /api/users/signup\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:05:04 GMT+0530 (India Standard Time)\n req URL: /api/users/signup\n reqBody: {\"name\":\"jitendra\",\"email\":\"hello@gmail.com\",\"password\":\"1234\",\"type\":\"cutomer\"}","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:05:27 GMT+0530 (India Standard Time)\n req URL: /api/users/signup\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:05:27 GMT+0530 (India Standard Time)\n req URL: /api/users/signup\n reqBody: {\"name\":\"jitendra\",\"email\":\"hello@gmail.com\",\"password\":\"Password@2002\",\"type\":\"cutomer\"}","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:05:32 GMT+0530 (India Standard Time)\n req URL: /api/users/signup\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:05:32 GMT+0530 (India Standard Time)\n req URL: /api/users/signup\n reqBody: {\"name\":\"jitendra\",\"email\":\"hello@gmail.com\",\"password\":\"Password@2002\",\"type\":\"customer\"}","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:08:10 GMT+0530 (India Standard Time)\n req URL: /api/users/signup\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:08:10 GMT+0530 (India Standard Time)\n req URL: /api/users/signup\n reqBody: {\"name\":\"Seller User\",\"email\":\"jitendrakr@gmail.com\",\"password\":\"Password@123\",\"type\":\"Seller\"}","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:10:29 GMT+0530 (India Standard Time)\n req URL: /api-docs/\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:10:30 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui.css\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:10:30 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui-bundle.js\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:10:30 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui-standalone-preset.js\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:10:30 GMT+0530 (India Standard Time)\n req URL: /api-docs/swagger-ui-init.js\n reqBody: undefined","service":"request-logging"}
+{"level":"info","message":"Sun Mar 24 2024 00:10:30 GMT+0530 (India Standard Time)\n req URL: /api-docs/favicon-32x32.png\n reqBody: undefined","service":"request-logging"}

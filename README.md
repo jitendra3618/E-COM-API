@@ -71,7 +71,8 @@ Returns: User orders.<br>
   ![Screenshot (60)](https://github.com/jitendra3618/E-COM-API/assets/137607500/25609fa8-9859-4fbd-ba56-81fff9cbe65a)
 
   
-  <h3>You can run project on:-</h3>[https://jitendra3618.github.io/E-COM-API/](http://localhost:3200/)
+  <h3>You can run project on:-</h3>
+  (http://localhost:3200/
 
 <h1>Documentation</h1>
 For detailed API documentation, refer to <a href="https://swagger.io/">Swagger Documentation</a>

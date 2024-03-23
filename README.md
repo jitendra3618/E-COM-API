@@ -33,12 +33,23 @@ Description: Endpoint to rate a product.<br>
 Parameters: Product ID, Rating<br>
 Returns: Success message.<br><br>
 
-6. /api/users/cartItems<br>
-Method: GET, POST<br>
-Description: Endpoint to manage user's cart items.<br>
+6. /api/users/products/filter<br>
+Method: POST<br>
+Description: Endpoint to filter the products.<br>
+Parameters: Product ID, price<br>
+Returns: Success message.<br><br>
+
+7. /api/users/cartItems<br>
+Method: GET<br>
+Description: Endpoint to see what products in cart.<br>
 Returns: Cart items.<br>
 
-7. /api/users/orders<br>
+8. /api/users/cartItems<br>
+Method:  POST<br>
+Description: Endpoint to add products in cart.<br>
+Returns: Cart items.<br>
+
+9. /api/users/orders<br>
 Method: GET, POST<br>
 Description: Endpoint to manage user's orders.<br>
 Returns: User orders.<br>
@@ -71,8 +82,8 @@ Returns: User orders.<br>
   ![Screenshot (60)](https://github.com/jitendra3618/E-COM-API/assets/137607500/25609fa8-9859-4fbd-ba56-81fff9cbe65a)
 
   
-  <h3>You can run project on:-</h3>
-  (http://localhost:3200/
+  <h3>You can run project on port no 3200:-</h3>
+  http://localhost:3200
 
 <h1>Documentation</h1>
 For detailed API documentation, refer to <a href="https://swagger.io/">Swagger Documentation</a>

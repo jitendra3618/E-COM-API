@@ -1,56 +1,57 @@
 # E-COM-API
-E-Commerce Application API
+<h3>E-Commerce Application API</h3>
 This repository contains the backend code for an E-Commerce Application API built with Node.js, Express.js, and various other technologies. The API provides endpoints for user authentication, product management, cart handling, and order processing.
 
-API Endpoints
-1. /api/users/signup
-Method: POST
-Description: Endpoint for user registration.
-Parameters: Username, email, password
-Returns: User data if successful, error message if unsuccessful.
+<h2>API Endpoints</h2>
 
-2. /api/users/signin
-Method: POST
-Description: Endpoint for user login.
-Parameters: Username, password
-Returns: Authentication token if successful, error message if unsuccessful.
+1. /api/users/signup<br>
+Method: POST<br>
+Description: Endpoint for user registration.<br>
+Parameters: Username, email, password<br>
+Returns: User data if successful, error message if unsuccessful.<br><br>
 
-3. /api/users/products
-Method: GET
-Description: Endpoint to retrieve all products.
-Returns: List of products.
+2. /api/users/signin<br>
+Method: POST<br>
+Description: Endpoint for user login.<br>
+Parameters: Username, password<br>
+Returns: Authentication token if successful, error message if unsuccessful.<br><br>
 
-4. /api/users/products/:id
-Method: GET
-Description: Endpoint to retrieve a specific product by ID.
-Parameters: Product ID
-Returns: Product details.
+3. /api/users/products<br>
+Method: GET<br>
+Description: Endpoint to retrieve all products.<br>
+Returns: List of products.<br><br>
 
-5. /api/users/products/rate
-Method: POST
-Description: Endpoint to rate a product.
-Parameters: Product ID, Rating
-Returns: Success message.
+4. /api/users/products/:id<br>
+Method: GET<br>
+Description: Endpoint to retrieve a specific product by ID.<br>
+Parameters: Product ID<br>
+Returns: Product details.<br><br>
 
-6. /api/users/cartItems
-Method: GET, POST
-Description: Endpoint to manage user's cart items.
-Returns: Cart items.
+5. /api/users/products/rate<br>
+Method: POST<br>
+Description: Endpoint to rate a product.<br>
+Parameters: Product ID, Rating<br>
+Returns: Success message.<br><br>
 
-7. /api/users/orders
-Method: GET, POST
-Description: Endpoint to manage user's orders.
-Returns: User orders.
+6. /api/users/cartItems<br>
+Method: GET, POST<br>
+Description: Endpoint to manage user's cart items.<br>
+Returns: Cart items.<br>
+
+7. /api/users/orders<br>
+Method: GET, POST<br>
+Description: Endpoint to manage user's orders.<br>
+Returns: User orders.<br>
 
 <h1>Technologies Used</h1>
 <ul>
   <li>JavaScript</li>
-<li>Node.js</li>
+<li>Node.js</li><
 <li>Express.js</li>
 <li>Postman</li>
 <li>Swagger</li>
 </ul>
-#Packages Used
+<h2>Packages Used</h2>
 <ul>
 <li>Body Parser</li>
 <li>CORS</li>
@@ -61,14 +62,13 @@ Returns: User orders.
 <li>Winston</li>
 </ul>
   <h1>Getting Started</h1>
-  1.Install dependencies:
-    npm install
-  2.start server:
-    node server.js
-  3.Server has been started on port 3200
+  1.Install dependencies:<br>
+    npm install<br>
+  2.start server:<br>
+    node server.js<br>
+  3.Server has been started on port 3200<br>
 
-  <h1>IMAGE</h1>
-  ![Screenshot (60)](https://github.com/jitendra3618/E-COM-API/assets/137607500/40a03886-b923-484b-b69c-14371b0c71a6)
+  ![Screenshot (60)](https://github.com/jitendra3618/E-COM-API/assets/137607500/25609fa8-9859-4fbd-ba56-81fff9cbe65a)
 
   
   <h1>LIVE LINK:-</h1>

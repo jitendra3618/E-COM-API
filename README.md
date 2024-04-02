@@ -54,6 +54,12 @@ Method: GET, POST<br>
 Description: Endpoint to manage user's orders.<br>
 Returns: User orders.<br>
 
+10./api/products/like<br>
+Method: GET, POST<br>
+Description: Endpoint to manage user's likecount.<br>
+Returns: User likes.<br>
+
+
 <h1>Technologies Used</h1>
 <ul>
   <li>JavaScript</li>
@@ -61,6 +67,8 @@ Returns: User orders.<br>
 <li>Express.js</li>
 <li>Postman</li>
 <li>Swagger</li>
+  <li>MongoDB</li>
+  <li>Mongoose</li>
 </ul>
 <h2>Packages Used</h2>
 <ul>

@@ -1,91 +1,149 @@
-# E-COM-API
-<h3>E-Commerce Application API</h3>
-This repository contains the backend code for an E-Commerce Application API built with Node.js, Express.js, and various other technologies. The API provides endpoints for user authentication, product management, cart handling, and order processing.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<h1>E-Commerce Application API Using REST API</h1>
+
+<img src="https://example.com/your-image.jpg" alt="E-Commerce API">
+
+<p>This repository contains the backend code for an E-Commerce Application API built with Node.js, Express.js, and various other technologies. The API provides endpoints for user authentication, product management, cart handling, and order processing.</p>
 
 <h2>API Endpoints</h2>
 
-1. /api/users/signup<br>
-Method: POST<br>
-Description: Endpoint for user registration.<br>
-Parameters: Username, email, password<br>
-Returns: User data if successful, error message if unsuccessful.<br><br>
+<ol>
+<h2>1. /api/users/signup</h2>
+<ul>
+  <li>Method: POST</li>
+  <li>Description: Endpoint for user registration.</li>
+  <li>Parameters: Username, email, password</li>
+  <li>Returns: User data if successful, error message if unsuccessful.</li>
+</ul>
 
-2. /api/users/signin<br>
-Method: POST<br>
-Description: Endpoint for user login.<br>
-Parameters: Username, password<br>
-Returns: Authentication token if successful, error message if unsuccessful.<br><br>
+<h2>2. /api/users/signin</h2>
+<ul>
+  <li>Method: POST</li>
+  <li>Description: Endpoint for user login.</li>
+  <li>Parameters: Username, password</li>
+  <li>Returns: Authentication token if successful, error message if unsuccessful.</li>
+</ul>
 
-3. /api/users/products<br>
-Method: GET<br>
-Description: Endpoint to retrieve all products.<br>
-Returns: List of products.<br><br>
+<h2>3. /api/users/products</h2>
+<ul>
+  <li>Method: GET</li>
+  <li>Description: Endpoint to retrieve all products.</li>
+  <li>Returns: List of products.</li>
+</ul>
 
-4. /api/users/products/:id<br>
-Method: GET<br>
-Description: Endpoint to retrieve a specific product by ID.<br>
-Parameters: Product ID<br>
-Returns: Product details.<br><br>
+<h2>4. /api/users/products/:id</h2>
+<ul>
+  <li>Method: GET</li>
+  <li>Description: Endpoint to retrieve a specific product by ID.</li>
+  <li>Parameters: Product ID</li>
+  <li>Returns: Product details.</li>
+</ul>
 
-5. /api/users/products/rate<br>
-Method: POST<br>
-Description: Endpoint to rate a product.<br>
-Parameters: Product ID, Rating<br>
-Returns: Success message.<br><br>
+<h2>5. /api/users/products/rate</h2>
+<ul>
+  <li>Method: POST</li>
+  <li>Description: Endpoint to rate a product.</li>
+  <li>Parameters: Product ID, Rating</li>
+  <li>Returns: Success message.</li>
+</ul>
 
-6. /api/users/products/filter<br>
-Method: POST<br>
-Description: Endpoint to filter the products.<br>
-Parameters: Product ID, price<br>
-Returns: Success message.<br><br>
+<h2>6. /api/users/products/filter</h2>
+<ul>
+  <li>Method: POST</li>
+  <li>Description: Endpoint to filter the products.</li>
+  <li>Parameters: Product ID, price</li>
+  <li>Returns: Success message.</li>
+</ul>
 
-7. /api/users/cartItems<br>
-Method: GET<br>
-Description: Endpoint to see what products in cart.<br>
-Returns: Cart items.<br>
+<h2>7. /api/users/cartItems</h2>
+<ul>
+  <li>Method: GET</li>
+  <li>Description: Endpoint to see what products are in the cart.</li>
+  <li>Returns: Cart items.</li>
+</ul>
 
-8. /api/users/cartItems<br>
-Method:  POST<br>
-Description: Endpoint to add products in cart.<br>
-Returns: Cart items.<br>
+<h2>8. /api/users/cartItems</h2>
+<ul>
+  <li>Method: POST</li>
+  <li>Description: Endpoint to add products to the cart.</li>
+  <li>Returns: Cart items.</li>
+</ul>
 
-9. /api/users/orders<br>
-Method: GET, POST<br>
-Description: Endpoint to manage user's orders.<br>
-Returns: User orders.<br>
+<h2>9. /api/users/orders</h2>
+<ul>
+  <li>Method: GET, POST</li>
+  <li>Description: Endpoint to manage user's orders.</li>
+  <li>Returns: User orders.</li>
+</ul>
 
-10. /api/products/like<br>
-Method: GET, POST<br>
-Description: Endpoint to manage user's likecount.<br>
-Returns: User likes.<br>
+<h2>10. /api/products/like</h2>
+<ul>
+  <li>Method: GET, POST</li>
+  <li>Description: Endpoint to manage user's like count.</li>
+  <li>Returns: User likes.</li>
+</ul>
 
+</ol>
 
-<h1>Technologies Used</h1>
+<h2>Technologies Used</h2>
+
 <ul>
   <li>JavaScript</li>
-<li>Node.js</li>
-<li>Express.js</li>
-<li>Postman</li>
-<li>Swagger</li>
+  <li>Node.js</li>
+  <li>Express.js</li>
+  <li>Postman</li>
+  <li>Swagger</li>
   <li>MongoDB</li>
   <li>Mongoose</li>
 </ul>
+
 <h2>Packages Used</h2>
+
 <ul>
-<li>Body Parser</li>
-<li>CORS</li>
-<li>Express Basic Auth</li>
-<li>JSON Web Token</li>
-<li>Multer</li>
-<li>Swagger UI Express</li>
-<li>Winston</li>
+  <li>Body Parser</li>
+  <li>CORS</li>
+  <li>Express Basic Auth</li>
+  <li>JSON Web Token</li>
+  <li>Multer</li>
+  <li>Swagger UI Express</li>
+  <li>Winston</li>
 </ul>
-  <h1>Getting Started</h1>
-  1.Install dependencies:<br>
-    npm install<br>
-  2.start server:<br>
-    node server.js<br>
-  3.Server has been started on port 3200<br>
+
+<h2>Getting Started</h2>
+
+<ol>
+  <li>Install dependencies:</li>
+  <code>npm install</code><br>
+  <li>Start server:</li>
+  <code>node server.js</code><br>
+  <li>Server has been started on port 3200:</li>
+  <a href="http://localhost:3200">http://localhost:3200</a>
+</ol>
+
+<h2>Documentation</h2>
+
+<p>For detailed API documentation, refer to <a href="https://swagger.io/">Swagger Documentation</a>.</p>
+
+<h2>Contributing</h2>
+
+<p>Contributions are welcome! Please feel free to open issues or pull requests.</p>
+
+<h2>License</h2>
+
+<p>This project is licensed under the ISC License.</p>
+
+<img src="https://example.com/your-image.jpg" alt="Project Image">
+
+</body>
+</html>
 
   ![Screenshot (60)](https://github.com/jitendra3618/E-COM-API/assets/137607500/25609fa8-9859-4fbd-ba56-81fff9cbe65a)
 
@@ -100,9 +158,8 @@ For detailed API documentation, refer to <a href="https://swagger.io/">Swagger D
 Contributions are welcome! Please feel free to open issues or pull requests.
 
 <h1>License</h1>
-This project is licensed under the ISC License.
+This project is licensed under the MIT License.
 
-Feel free to customize this README according to your project's specific needs and preferences. Make sure to replace placeholders like your-username with actual values.
 
 
 

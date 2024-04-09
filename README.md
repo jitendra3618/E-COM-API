@@ -93,7 +93,7 @@
 
 </ol>
 
-
+<h2>Glance of the website</h2>
 ![Screenshot (60)](https://github.com/jitendra3618/E-COM-API/assets/137607500/25609fa8-9859-4fbd-ba56-81fff9cbe65a)
 <h2>Technologies Used</h2>
 

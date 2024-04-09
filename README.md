@@ -9,7 +9,7 @@
 
 <h1>E-Commerce Application API Using REST API</h1>
 
-<img src="https://example.com/your-image.jpg" alt="E-Commerce API">
+
 
 <p>This repository contains the backend code for an E-Commerce Application API built with Node.js, Express.js, and various other technologies. The API provides endpoints for user authentication, product management, cart handling, and order processing.</p>
 
@@ -93,6 +93,8 @@
 
 </ol>
 
+
+![Screenshot (60)](https://github.com/jitendra3618/E-COM-API/assets/137607500/25609fa8-9859-4fbd-ba56-81fff9cbe65a)
 <h2>Technologies Used</h2>
 
 <ul>
@@ -140,7 +142,6 @@
 
 <p>This project is licensed under the ISC License.</p>
 
-<img src="https://example.com/your-image.jpg" alt="Project Image">
 
 </body>
 </html>
